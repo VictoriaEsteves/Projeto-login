@@ -1,0 +1,17 @@
+@charset "UTF-8";
+    
+/* 
+    paleta:
+    cool gray: #7D8CA3
+    black: #020202
+    baby powder: #FFFCF9
+    celeste: #B1EDE8
+
+*/
+
+:root {
+    --c1: #7D8CA3;
+    --c2: #020202;
+    --c3: #FFFCF9;
+    --c4: #B1EDE8;
+}
