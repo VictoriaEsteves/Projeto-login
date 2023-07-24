@@ -127,6 +127,10 @@ form > button {
     
 }
 
+form > button:hover {
+    background-color: var(--c4);
+}
+
 form > button > span {
     padding-left: 5px;
     font-size: 5px;
