@@ -39,15 +39,15 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
-
+    
     background-color: var(--c3);
     width: 260px;
     height: 515px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
-
+    
+    transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
@@ -106,6 +106,23 @@ div.campo {
 div.campo > label {
     display: none;
 }
+
+div.campo > span {
+    color: var(--c3);
+    font-size: 2em;
+    
+    transform: translateY(-5px);
+}
+
+div.campo > input {
+    background-color: #B1EDE8;
+    width: calc(100% - px);
+    height: 100%;
+    border: 0px;
+    
+    transform: translateY(-15px);
+}
+
 
 form > button {
     display: block;
