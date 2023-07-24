@@ -34,13 +34,15 @@
         width: 950px;
     }
     section#login > div.image {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     #login > .form {
-        float: right;
+        float: left;
         width: 50%;
     }
+
+
 }
